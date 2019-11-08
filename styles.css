@@ -1,0 +1,45 @@
+body{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+}
+@media (max-width: 600px){
+	body{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+}
+
+#main-doc{
+	background-color: #ffb3b3;
+	padding: 5px 5px 5px 10px;
+	text-align: justify;
+}
+
+#main-doc code{
+	background-color: #b3b3b3;
+}
+#navbar{
+    background-color: #c299ff;
+}
+
+.navlink{
+	display: block;
+	text-decoration: none;
+}
+
+#navbar ul{
+	list-style-type: none;
+}
+
+#navbar li{
+	padding-right: 5px;
+	padding-left: 1px;
+	text-align: left;
+}
+
+#navbar h2{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
